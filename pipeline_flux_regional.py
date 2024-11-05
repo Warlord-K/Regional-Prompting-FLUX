@@ -22,7 +22,7 @@ from transformers import CLIPTextModel, CLIPTokenizer, T5EncoderModel, T5Tokeniz
 from diffusers.image_processor import PipelineImageInput, VaeImageProcessor
 from diffusers.loaders import FluxLoraLoaderMixin
 from diffusers.models.autoencoders import AutoencoderKL
-from diffusers.models.transformers import FluxTransformer2DModel
+from .transformer_flux import FluxTransformer2DModel
 from diffusers.schedulers import FlowMatchEulerDiscreteScheduler
 from diffusers.utils import (
     USE_PEFT_BACKEND,
